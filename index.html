@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IMC</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <h1>IMC</h1>
+  <p>
+    <label for="in-weight">Peso (Kg)</label><br/>
+    <input type="number" name="" id="in-weight" value="75" step="0.1">
+  </p>
+  
+  <p>
+    <label for="in-height">Altura (m)</label><br/>
+    <input type="number" name="" id="in-height" value="1.75" step="0.01">
+  </p>
+
+  <p>
+    <button id="buttonCalc">Calcular IMC</button>
+  </p>
+
+  <p id="paragraph-result">
+    O seu IMC é <strong id="imc-result"></strong>.
+  </p>
+
+  <p id="group-result">
+    Este valor considera que você está na faixa de <strong id="imc-group"></strong>.
+  </p>
+
+  <script defer src="./js/script.js"></script>  
+</body>
+</html>
