@@ -2,12 +2,6 @@ function start() {
     var buttonCalc = document.querySelector('#buttonCalc');
     buttonCalc.addEventListener('click', handleButtonClick);
 
-    var inputWeight = document.querySelector('#in-weight');
-    var inputHeight = document.querySelector('#in-height');
-
-    inputWeight.addEventListener('input', handleButtonClick);
-    inputHeight.addEventListener('input', handleButtonClick);
-
     handleButtonClick();
 }
 
